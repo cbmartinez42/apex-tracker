@@ -27,7 +27,7 @@ app.get("/", function(req, res) {
 });
 
 // Connect to the Mongo DB
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/dothisdb", { 
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/apex-stats", { 
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
